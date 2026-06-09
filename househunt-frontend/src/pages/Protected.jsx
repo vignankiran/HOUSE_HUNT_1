@@ -9,7 +9,7 @@ function Protected() {
     const fetchProtected = async () => {
       try {
         const token = localStorage.getItem("token");
-        const res = await axios.get("http://https://house-hunt-1-15mw.onrender.com/api/protected", {
+        const res = await axios.get("https://house-hunt-1-15mw.onrender.com/api/protected", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setMessage(
