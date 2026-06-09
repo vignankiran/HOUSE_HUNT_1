@@ -17,7 +17,7 @@ function Login() {
     setError("");
     try {
       const res = await axios.post(
-        "http://https://house-hunt-1-15mw.onrender.com/api/auth/login",
+        "https://house-hunt-1-15mw.onrender.com/api/auth/login",
         form
       );
       // Store token and redirect
