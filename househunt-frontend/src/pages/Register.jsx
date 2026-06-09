@@ -27,7 +27,7 @@ function Register() {
     }
 
     try {
-      await axios.post("http://https://house-hunt-1-15mw.onrender.com/api/auth/register", form);
+      await axios.post("https://house-hunt-1-15mw.onrender.com/api/auth/register", form);
       navigate("/login");
     } catch (err) {
       setError(
