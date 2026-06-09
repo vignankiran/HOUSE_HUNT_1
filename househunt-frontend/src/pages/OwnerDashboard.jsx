@@ -8,7 +8,7 @@ import axios from "axios";
 const api = () => {
   const token = localStorage.getItem("token");
   return axios.create({
-    baseURL: "http://https://house-hunt-1-15mw.onrender.com/api/owner",
+    baseURL: "https://house-hunt-1-15mw.onrender.com/api/owner",
     headers: token ? { Authorization: `Bearer ${token}` } : {},
   });
 };
