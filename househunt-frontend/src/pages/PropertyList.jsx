@@ -10,7 +10,7 @@ export default function PropertyList() {
   useEffect(() => {
     (async () => {
       try {
-        const res = await axios.get("http://https://house-hunt-1-15mw.onrender.com/api/properties");
+        const res = await axios.get("https://house-hunt-1-15mw.onrender.com/api/properties");
         setProperties(res.data);
       } catch {
         setError("Could not load properties. Try again later.");
