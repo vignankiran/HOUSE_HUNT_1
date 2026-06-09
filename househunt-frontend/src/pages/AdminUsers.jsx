@@ -10,7 +10,7 @@ function AdminUsers() {
     (async () => {
       try {
         const { data } = await axios.get(
-          "http://https://house-hunt-1-15mw.onrender.com/api/admin/owners/pending",
+          "https://house-hunt-1-15mw.onrender.com/api/admin/owners/pending",
           { headers: { Authorization: `Bearer ${token}` } }
         );
         setOwners(data);
@@ -25,7 +25,7 @@ function AdminUsers() {
   const approveOwner = async (id) => {
     try {
       await axios.put(
-        `http://https://house-hunt-1-15mw.onrender.com/api/admin/owners/${id}/approve`,
+        `https://house-hunt-1-15mw.onrender.com/api/admin/owners/${id}/approve`,
         {},
         { headers: { Authorization: `Bearer ${token}` } }
       );
