@@ -1,0 +1,9 @@
+MONGO_URI=mongodb+srv://househunt_db_user:P%40ssword1245@cluster0.kd93sro.mongodb.net/?appName=Cluster0
+
+JWT_SECRET=supersecretkey
+
+
+
+
+backend
+https://house-hunt-1-15mw.onrender.com
