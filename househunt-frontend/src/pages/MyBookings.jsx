@@ -8,7 +8,7 @@ export default function MyBookings() {
   useEffect(() => {
     (async () => {
       try {
-        const res = await axios.get("http://https://house-hunt-1-15mw.onrender.com/api/bookings/mine", {
+        const res = await axios.get("https://house-hunt-1-15mw.onrender.com/api/bookings/mine", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setItems(res.data);
